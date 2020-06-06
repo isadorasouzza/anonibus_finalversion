@@ -7,11 +7,11 @@ export default Home = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text>HOME</Text>
-      <Button title="Detalhes Sem Parametro" onPress={() =>
+      <Text>BEM VINDO(A) À PÁGINA INICIAL</Text>
+      <Button title="Página 1" onPress={() =>
         navigation.push('HomeDetails')} />
-      <Button title="Detalhes Com Parametro" onPress={() =>
-        navigation.push('HomeDetails', { name: 'Isso é um teste' })} />
+      <Button title="Página 2" onPress={() =>
+        navigation.push('HomeDetails', { name: '' })} />
     </View>
   )
 }

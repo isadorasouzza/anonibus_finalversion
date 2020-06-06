@@ -23,7 +23,6 @@ const handleSignUp = () => {
       .createUserWithEmailAndPassword(textEmail, textPassword)
       .then(() => signUp())
       .catch(function(error){
-        // AQUI A GENTE VAI MANIPULAR OS ERROS DA SENHA
         var errorCode = error.code;
         var errorMessage = error.message;
         if (errorCode == 'auth/weak-password')  {

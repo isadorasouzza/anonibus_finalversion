@@ -57,7 +57,7 @@ export default function Upload() {
     <CorrecaoView>
       <WrapperView>
         <Header>
-          <Text>Sou texto Um</Text>
+          <Text></Text>
         </Header>
         <Content>
 
@@ -69,7 +69,7 @@ export default function Upload() {
           <Button title="Escolher Imagem" onPress={() => { escolherImagem() }} />
         </Content>
         <Footer>
-          <Text>Sou texto Tres</Text>
+          <Text></Text>
         </Footer>
       </WrapperView>
     </CorrecaoView>
